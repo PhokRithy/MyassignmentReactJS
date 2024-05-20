@@ -1,0 +1,27 @@
+import"./TaskForm.css";
+const TaskForm = () => {
+    return (
+        <header className="app_header">
+            <form>
+                <input type="text" 
+                    className="task_input"
+                    placeholder="Enter your task" />
+                <div className="task_form_botton_line">
+                    <button className="tags">HTML</button>
+                    <button className="tags">CSS</button>
+                    <button className="tags">JavaScript</button>
+                    <button className="tags">React</button>
+                    <select className="task_status">
+                        <option value="todo">To do</option>
+                        <option value="doing">Doing</option>
+                        <option value="Done">Done</option>
+                    </select>
+                    <button type="submit"
+                            className="task_submit">+ Add Task</button>
+                </div>
+            </form>
+      </header>
+    )
+}
+
+export default TaskForm;
