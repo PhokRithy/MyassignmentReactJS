@@ -1,7 +1,7 @@
-/* .app_header{
+.app{
     display: grid;
-    grid-template-columns: 159px auto;
-} */
+    grid-template-rows: 150px auto;
+}
 .app_main{
     display: flex;
     justify-content: space-evenly;
