@@ -1,5 +1,6 @@
 
 import TaskForm from "./components/TaskForm.jsx";
+import TaskColumn from "./components/TaskColumn.jsx";
 import "./App.css";
 
 
@@ -8,9 +9,9 @@ const App = () => {
     <div className="app">
       <TaskForm />
       <main className="app_main">
-        <section className="task_column">Todo</section>
-        <section className="task_column">Doing</section>
-        <section className="task_column">Done</section>
+        <TaskColumn title="To do"/>
+        <TaskColumn title="Doing"/>
+        <TaskColumn title="Done"/>
       </main>
     </div>
   )

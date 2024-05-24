@@ -18,11 +18,11 @@ const TaskForm = () => {
                     
                     </div>
                    <div>
-                   <select className="task_status">
+                   {/* <select className="task_status">
                         <option value="todo">To do</option>
                         <option value="doing">Doing</option>
                         <option value="Done">Done</option>
-                    </select>
+                    </select> */}
                     <button type="submit"
                             className="task_submit">+ Add Task</button>
                    </div>
