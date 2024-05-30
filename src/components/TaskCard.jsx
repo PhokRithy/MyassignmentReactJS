@@ -13,7 +13,7 @@ const TaskCard = () => {
                     
                 </div>
                 <div className="task_delete">
-                <img  src={delete_icon} alt="" />
+                <img className="delete_icon" src={delete_icon} alt="" />
                 </div>
             </div>
            

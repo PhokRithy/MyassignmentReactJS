@@ -5,10 +5,9 @@
   border-bottom: 1px solid #dcdcdc;
 }
 
-.app_header  > form {
+.app_header > form {
   width: 40%;
 }
-
 
 .task_input {
   font-size: 20px;
@@ -21,22 +20,20 @@
   width: 100%;
   border-radius: 4px;
 }
-.task_input::placeholder{
-  color:#686868;
+.task_input::placeholder {
+  color: #686868;
 }
 
-
-.task_form_botton_line{
+.task_form_botton_line {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
-
-
-.task_status{
+.task_status {
   font-size: 16px;
-  font-weight:500;
+  font-weight: 500;
   border: 1px solid #999;
   border-radius: 5px;
   width: 120px;
