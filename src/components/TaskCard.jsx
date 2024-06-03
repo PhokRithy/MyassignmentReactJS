@@ -15,7 +15,7 @@ const TaskCard = ({ title, tags, handleDelete, index }) => {
           ))}
         </div>
         <div className="task_delete" onClick={() => handleDelete(index)}>
-          <img className="delete_icon" src={deleteIcon} alt="Delete Task" />
+          <img className="delete_icon" src={delete_icon} alt="Delete Task" />
         </div>
       </div>
     </article>
