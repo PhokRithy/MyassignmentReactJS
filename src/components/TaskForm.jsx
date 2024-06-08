@@ -92,7 +92,7 @@ const TaskForm = ({ setTasks }) => {
               className="task_status"
               name="status"
               onChange={handleChange}
-              value={taskData.task}
+              value={taskData.status}
             >
               <option value="todo">To do</option>
               <option value="doing">Doing</option>
